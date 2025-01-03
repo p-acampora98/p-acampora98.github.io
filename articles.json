@@ -1,0 +1,58 @@
+[
+    {
+        "date": "2025",
+        "authors": "E. Cristoforoni",
+        "journal": "Advances in Calculus of Variations (to appear)",
+        "title": "On the asymptotic behavior of a diffraction problem with a thin layer",
+        "arxivLink": "https://arxiv.org/abs/2404.12054",
+        "journalLink": ""
+    },
+    {
+      "date": "2025",
+      "authors": "A. Amato, E. Cristoforoni",
+      "journal": "Communications in Contemporary Mathematics (to appear)",
+      "title": "Estimates on the Neumann and Steklov principal eigenvalues of collapsing domains",
+      "arxivLink": "https://arxiv.org/abs/2307.12889",
+      "journalLink": ""
+    },
+    {
+        "date": "2024",
+        "authors": "E. Cristoforoni, C. Nitsch, C. Trombetti",
+        "journal": "SIAM Journal in Mathematical Analysis",
+        "title": "On the optimal shape of a thin insulating layer",
+        "arxivLink": "https://arxiv.org/abs/2305.04078",
+        "journalLink": "https://epubs.siam.org/doi/10.1137/23M1572544"
+    },
+  {
+    "date": "2024",
+    "authors": "A. Celentano, E. Cristoforoni, C. Nitsch, C. Trombetti",
+    "journal": "Preprint",
+    "title": "A spectral isoperimetric inequality on the n-sphere for the Robin-Laplacian with negative boundary parameter",
+    "arxivLink": "https://www.google.it",
+    "journalLink": ""
+  },
+  {
+    "date": "2023",
+    "authors": "E. Cristoforoni",
+    "journal": "Atti Accad. Naz. Lincei Cl. Sci. Fis. Mat. Natur.",
+    "title": "An isoperimetric result for an energy related to the p-capacity",
+    "arxivLink": "https://arxiv.org/abs/2207.14582",
+    "journalLink": "https://ems.press/journals/rlm/articles/14024146"
+  },
+  {
+    "date": "2023",
+    "authors": "E. Cristoforoni",
+    "journal": "Annali di Matematica Pura e Applicata",
+    "title": "A free boundary problem for the p-Laplacian with nonlinear boundary conditions",
+    "arxivLink": "https://arxiv.org/abs/2206.10331",
+    "journalLink": "https://link.springer.com/article/10.1007/s10231-023-01350-x"
+  },
+  {
+    "date": "2024",
+    "authors": "E. Cristoforoni, C. Nitsch, C. Trombetti",
+    "journal": "ESAIM: Control, Optimisation and Calculus of Variations",
+    "title": "A free boundary problem in thermal insulation with a prescribed heat source",
+    "arxivLink": "https://arxiv.org/abs/2205.03275",
+    "journalLink": "https://www.esaim-cocv.org/articles/cocv/abs/2023/01/cocv220111/cocv220111.html"
+  }
+  ]
