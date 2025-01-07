@@ -74,7 +74,7 @@ $(function () {
   function closeSidebar() {
     $navbar.removeClass("show");
     $openButton.attr("aria-expanded", "false");
-    $navbar.attr("inert", "");
+    if(isMobile){$navbar.attr("inert", "")};
   }
 
   $openButton.on("click", openSidebar);
@@ -84,15 +84,29 @@ $(function () {
 
   // Remove from navbar from taggable elements in case of small screen
   const media = window.matchMedia("(width<1000px)");
+  var isMobile = media.matches;
   if (media.matches){$navbar.attr('inert','')};
   $(media).on("change", updateNavbar);
 
   function updateNavbar() {
-    const isMobile = this.matches;
+    isMobile = this.matches;
     if (isMobile) {
       $navbar.attr("inert", "");
     } else {
       $navbar.removeAttr("inert");
     }
   }
+
+
+  // Dark mode controls 
+  $('#lightSwitch-container').click(function(){
+    $('#lightSwitch').toggleClass('dark');
+    setTimeout(toggleDarkMode,500);
+  });
+
+  function toggleDarkMode() {
+    $('html').toggleClass('dark');
+  }
+  
+
 });

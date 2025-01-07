@@ -6,6 +6,7 @@
     --fontSize-4: 1.5rem;
     --fontSize-5: 1rem;
 
+    
     /* Colors */
     --bg-62: hsl(150, 62%, 53%);
     --bg-42: hsl(150, 42%, 62%);
@@ -22,16 +23,37 @@
     --shadow: rgba(0,0,0,.3);
     --color-circle: rgba(0,0,0,.2);
     --colored-glass: rgba(39, 95, 65, 0.508);
+    --warning-color: yellow;
+    
+}
 
-   }
+:root.dark{
+    --bg-62: hsl(171, 43%, 10%);
+    --bg-42: hsl(171, 43%, 20%);
+    --bg-42-darker: hsl(172, 43%, 23%);
+    --fg: #fff;
+    --fg-accent: hsl(171, 43%, 10%);
+    --bg-gradient: linear-gradient(to bottom right,var(--bg-42), var(--bg-42-darker));
+    --button-accent: linear-gradient(to bottom, hsl(171, 44%, 51%), hsl(171, 44%, 31%));
+    
+    /* Colors for effects */
+    --bg-glass: rgba(0, 0, 0, 0.2);
+    --bg-glass-light: rgba(86, 86, 86, 0.25);
+    --bg-glass-shadow: rgba(0,0,0,.1);
+    --shadow: rgba(0,0,0,.3);
+    --color-circle: rgba(255, 255, 255, 0.2);
+    --colored-glass: rgba(39, 95, 65, 0.508);
+    --warning-color: var(--bg-42-darker);
+}
 /* General styling */
 * {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 html{
+    color: var(--fg);
     position: relative;
     margin: 0;
     width: 100%;
@@ -201,6 +223,7 @@ nav ul {
     width: 100%;
     display: flex;
     align-items: center;
+    z-index: 9;
 }
 
 #topBar.scrolled{
@@ -223,6 +246,7 @@ nav a {
     text-decoration: none;
     color: var(--fg);
 }
+
 
 nav *{
     font-size: var(--fontSize-4);
@@ -476,23 +500,37 @@ ul.big-list{
 
 /* Publications */
 
+#tableContainer{
+    position:relative;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    max-height: calc(85dvh-4rem);
+    border-radius: 1rem;
+}
+
 .full-table{
-        border-collapse: separate;
-        border-spacing: 0;
-        overflow: hidden;
-        background-color: var(--bg-glass);
-        box-shadow: 0 1rem 2rem var(--bg-glass-shadow);
-        backdrop-filter: blur(.4rem);
-        border-radius: 1rem;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+    background-color: var(--bg-glass);
+    box-shadow: 0 1rem 2rem var(--bg-glass-shadow);
+    backdrop-filter: blur(.4rem);
+    border-radius: 1rem;
+    width: max(65rem,100%);
     }
-    
+
 .full-table td, .full-table th {
       border: none;
       text-align: left;
       padding: .5rem;
+      max-height: 3rem;
+      
     }
-.full-table th{
-    border-top: none;
+
+    .full-table tr{
+    height: 10px;}
+    .full-table th{
+        border-top: none;
 }
 
 .full-table tbody tr:hover{
@@ -501,8 +539,11 @@ ul.big-list{
 
     
 .full-table thead {
-    background-color: var(--colored-glass);
+    background-image: var(--button-accent);
     color: var(--fg-accent);
+    position: sticky;
+    z-index:10;
+    top:0;
 }
     
 .full-table td:nth-child(even) {
@@ -540,6 +581,53 @@ ul.big-list{
     height: 2rem;
 }
 
+/* Light switch button */
+#lightSwitch-container{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    
+    border: none;
+    box-shadow: .01rem .01rem .2rem inset;
+
+    width: 2.4rem;
+    height: 1.4rem;
+    padding: .2rem;
+    border-radius: 1rem;
+    background-color: gray;
+}
+
+#lightSwitch{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 1rem;
+
+    box-shadow: .01rem .01rem .15rem black;
+    background-image: var(--button-accent);
+    transition: all .5s ease-in-out;
+    
+    overflow:hidden;
+}
+
+#lightSwitch.dark{
+    translate:100%;
+}
+
+#lightSwitch-svg{
+    display: flex;
+    flex-direction: column;
+    transition: all .5s ease-in-out;
+}
+
+#lightSwitch.dark #lightSwitch-svg{
+    position:relative;
+    rotate: 180deg;
+}
+
+
+
+/* Responsive controls */
+
 #sidebarOpenButton{
     display: none;
     background:none;
@@ -563,6 +651,7 @@ ul.big-list{
     z-index: 10;
     display: none;
 }
+
 
 @media screen and (max-width : 1000px) {
     
@@ -595,7 +684,7 @@ ul.big-list{
     nav {
         position: fixed;
         height: 100dvh;
-        width: min(20rem, 100%);
+        width: min(15rem, 100%);
         right: -100%;
         background-color: var(--bg-glass);
         box-shadow: 0 1rem 2rem var(--bg-glass-shadow);
@@ -713,9 +802,6 @@ ul.big-list{
         padding-right: 1.5rem;
     }
 
-    .full-table{
-        width: 100%;
-    }
 
     #circle1{
         top:-5rem;
@@ -778,6 +864,10 @@ ul.big-list{
         left: 50%;
         translate: -50%;
     }
+    .cv-photo.scrolled{
+        left: 1rem;
+        translate: 0;
+    }
     
     .logo-links{
         flex-wrap: wrap;
@@ -825,7 +915,5 @@ ul.big-list{
             left: 0%;
         }
 
-        #tableContainer{
-            overflow-x: auto;
-        }
+
     }
