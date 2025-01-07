@@ -619,6 +619,10 @@ ul.big-list{
     transition: all .5s ease-in-out;
 }
 
+#lightSwitch svg{
+    height: 1rem;
+}
+
 #lightSwitch.dark #lightSwitch-svg{
     position:relative;
     rotate: 180deg;
