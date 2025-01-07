@@ -594,7 +594,8 @@ ul.big-list{
     right: 1rem;
     
     border: none;
-    box-shadow: .01rem .01rem .2rem inset;
+    color: transparent;
+    box-shadow: .01rem .01rem .2rem black inset;
 
     width: 2.4rem;
     height: 1.4rem;
@@ -642,6 +643,7 @@ ul.big-list{
     display: none;
     background:none;
     border: none;
+    color: var(--fg);
     padding: 1rem;
     cursor: pointer;
     margin-left:0;
@@ -650,6 +652,7 @@ ul.big-list{
     display: none;
     background:none;
     border: none;
+    color: var(--fg);
     padding: 1rem;
     cursor: pointer;
 }
