@@ -1,4 +1,20 @@
 [
+  {
+      "date": "2025",
+      "authors": "J. Lamboley",
+      "journal": "Preprint",
+      "title": "Sharp quantitative Talenti's inequality in particular cases",
+      "arxivLink": "https://arxiv.org/abs/2404.12054",
+      "journalLink": "https://arxiv.org/abs/2503.07337"
+  },
+    {
+      "date": "2025",
+      "authors": "V. Amato, E. Cristoforoni",
+      "journal": "Communications in Contemporary Mathematics",
+      "title": "Estimates on the Neumann and Steklov principal eigenvalues of collapsing domains",
+      "arxivLink": "https://arxiv.org/abs/2307.12889",
+      "journalLink": "https://worldscientific.com/doi/abs/10.1142/S0219199725500270"
+    },
     {
         "date": "2025",
         "authors": "E. Cristoforoni",
@@ -6,14 +22,6 @@
         "title": "On the asymptotic behavior of a diffraction problem with a thin layer",
         "arxivLink": "https://arxiv.org/abs/2404.12054",
         "journalLink": ""
-    },
-    {
-      "date": "2025",
-      "authors": "V. Amato, E. Cristoforoni",
-      "journal": "Communications in Contemporary Mathematics (to appear)",
-      "title": "Estimates on the Neumann and Steklov principal eigenvalues of collapsing domains",
-      "arxivLink": "https://arxiv.org/abs/2307.12889",
-      "journalLink": ""
     },
     {
         "date": "2024",
