@@ -35,12 +35,14 @@ $(function () {
           case "arxivLink":
             var container = document.createElement("div");
             container.style = "display:flex;";
-            // create arxiv link
+            // create arxiv link (if avialable)
+            if (that.arxivLink) {
             var arxivLink = document.createElement("a");
             arxivLink.innerHTML = arxivLogo;
             arxivLink.target = "_blank";
             arxivLink.href = v;
             container.appendChild(arxivLink);
+            }
             // if available, create journal link
             if (that.journalLink) {
               var journalLink = document.createElement("a");
