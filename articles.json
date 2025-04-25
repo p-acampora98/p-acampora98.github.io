@@ -8,6 +8,22 @@
       "journalLink": ""
   },
     {
+        "date": "2025",
+        "authors": "E. Cristoforoni",
+        "journal": "Advances in Calculus of Variations (to appear)",
+        "title": "On the asymptotic behavior of a diffraction problem with a thin layer",
+        "arxivLink": "https://arxiv.org/abs/2404.12054",
+        "journalLink": ""
+    },
+  {
+    "date": "2025",
+    "authors": "A. Celentano, E. Cristoforoni, C. Nitsch, C. Trombetti",
+    "journal": "Journal of Geometric Analysis (to appear)",
+    "title": "A spectral isoperimetric inequality on the n-sphere for the Robin-Laplacian with negative boundary parameter",
+    "arxivLink": "https://arxiv.org/abs/2407.05987",
+    "journalLink": ""
+  },
+    {
       "date": "2025",
       "authors": "V. Amato, E. Cristoforoni",
       "journal": "Communications in Contemporary Mathematics",
@@ -23,15 +39,6 @@
       "arxivLink": "",
       "journalLink": "https://p-acampora98.github.io/phdThesisAcampora.pdf"
     },
-
-    {
-        "date": "2025",
-        "authors": "E. Cristoforoni",
-        "journal": "Preprint",
-        "title": "On the asymptotic behavior of a diffraction problem with a thin layer",
-        "arxivLink": "https://arxiv.org/abs/2404.12054",
-        "journalLink": ""
-    },
     {
         "date": "2024",
         "authors": "E. Cristoforoni, C. Nitsch, C. Trombetti",
@@ -40,14 +47,6 @@
         "arxivLink": "https://arxiv.org/abs/2305.04078",
         "journalLink": "https://epubs.siam.org/doi/10.1137/23M1572544"
     },
-  {
-    "date": "2024",
-    "authors": "A. Celentano, E. Cristoforoni, C. Nitsch, C. Trombetti",
-    "journal": "Preprint",
-    "title": "A spectral isoperimetric inequality on the n-sphere for the Robin-Laplacian with negative boundary parameter",
-    "arxivLink": "https://www.google.it",
-    "journalLink": ""
-  },
   {
     "date": "2023",
     "authors": "E. Cristoforoni",
