@@ -1,6 +1,14 @@
 [
   {
       "date": "2025",
+      "authors": "E. Cristoforoni, C. Nitsch, C. Trombetti",
+      "journal": "Preprint",
+      "title": "An improved version of a spectral inequality by Payne",
+      "arxivLink": "https://arxiv.org/abs/2507.08631",
+      "journalLink": ""
+  },
+  {
+      "date": "2025",
       "authors": "J. Lamboley",
       "journal": "Preprint",
       "title": "Sharp quantitative Talenti's inequality in particular cases",
