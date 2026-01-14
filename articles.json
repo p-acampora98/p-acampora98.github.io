@@ -1,80 +1,80 @@
 [
   {
-      "date": "2025",
-      "authors": "E. Cristoforoni, C. Nitsch, C. Trombetti",
-      "journal": "Preprint",
+    "authors": "E. Cristoforoni, C. Nitsch, C. Trombetti",
+    "journal": "Preprint",
+    "date": "2025",
       "title": "An improved version of a spectral inequality by Payne",
       "arxivLink": "https://arxiv.org/abs/2507.08631",
       "journalLink": ""
   },
   {
-      "date": "2025",
-      "authors": "J. Lamboley",
-      "journal": "Preprint",
+    "authors": "J. Lamboley",
+    "journal": "Preprint",
+    "date": "2025",
       "title": "Sharp quantitative Talenti's inequality in particular cases",
       "arxivLink": "https://arxiv.org/abs/2503.07337",
       "journalLink": ""
   },
     {
-        "date": "2025",
-        "authors": "E. Cristoforoni",
-        "journal": "Advances in Calculus of Variations",
+      "authors": "E. Cristoforoni",
+      "journal": "Advances in Calculus of Variations",
+      "date": "2025",
         "title": "On the asymptotic behavior of a diffraction problem with a thin layer",
         "arxivLink": "https://arxiv.org/abs/2404.12054",
         "journalLink": "https://doi.org/10.1515/acv-2024-0052"
     },
   {
-    "date": "2025",
     "authors": "A. Celentano, E. Cristoforoni, C. Nitsch, C. Trombetti",
     "journal": "Journal of Geometric Analysis",
+    "date": "2025",
     "title": "A spectral isoperimetric inequality on the n-sphere for the Robin-Laplacian with negative boundary parameter",
     "arxivLink": "https://arxiv.org/abs/2407.05987",
     "journalLink": "https://doi.org/10.1007/s12220-025-02007-2"
   },
     {
-      "date": "2025",
       "authors": "V. Amato, E. Cristoforoni",
       "journal": "Communications in Contemporary Mathematics",
+      "date": "2025",
       "title": "Estimates on the Neumann and Steklov principal eigenvalues of collapsing domains",
       "arxivLink": "https://arxiv.org/abs/2307.12889",
       "journalLink": "https://worldscientific.com/doi/abs/10.1142/S0219199725500270"
     },
 {
-      "date": "2025",
-      "authors": "",
-      "journal": "Phd Thesis",
+  "authors": "",
+  "journal": "Phd Thesis",
+  "date": "2025",
       "title": "Recent advances in geometric problems related to energy efficiency ",
       "arxivLink": "",
       "journalLink": "https://p-acampora98.github.io/phdThesisAcampora.pdf"
     },
     {
-        "date": "2024",
-        "authors": "E. Cristoforoni, C. Nitsch, C. Trombetti",
-        "journal": "SIAM Journal in Mathematical Analysis",
+      "authors": "E. Cristoforoni, C. Nitsch, C. Trombetti",
+      "journal": "SIAM Journal in Mathematical Analysis",
+      "date": "2024",
         "title": "On the optimal shape of a thin insulating layer",
         "arxivLink": "https://arxiv.org/abs/2305.04078",
         "journalLink": "https://epubs.siam.org/doi/10.1137/23M1572544"
     },
   {
-    "date": "2023",
     "authors": "E. Cristoforoni",
     "journal": "Atti Accad. Naz. Lincei Cl. Sci. Fis. Mat. Natur.",
+    "date": "2023",
     "title": "An isoperimetric result for an energy related to the p-capacity",
     "arxivLink": "https://arxiv.org/abs/2207.14582",
     "journalLink": "https://ems.press/journals/rlm/articles/14024146"
   },
   {
-    "date": "2023",
     "authors": "E. Cristoforoni",
     "journal": "Annali di Matematica Pura e Applicata",
+    "date": "2023",
     "title": "A free boundary problem for the p-Laplacian with nonlinear boundary conditions",
     "arxivLink": "https://arxiv.org/abs/2206.10331",
     "journalLink": "https://link.springer.com/article/10.1007/s10231-023-01350-x"
   },
   {
-    "date": "2024",
     "authors": "E. Cristoforoni, C. Nitsch, C. Trombetti",
     "journal": "ESAIM: Control, Optimisation and Calculus of Variations",
+    "date": "2024",
     "title": "A free boundary problem in thermal insulation with a prescribed heat source",
     "arxivLink": "https://arxiv.org/abs/2205.03275",
     "journalLink": "https://www.esaim-cocv.org/articles/cocv/abs/2023/01/cocv220111/cocv220111.html"
