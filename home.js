@@ -62,6 +62,7 @@ $(function () {
     });
     $("#publicationsTable").append(tbl_body); //DOM table doesn't have .appendChild
   });
+  
 
 
   // Construct teaching section
