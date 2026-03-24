@@ -535,7 +535,7 @@ ul.big-list {
   -webkit-backdrop-filter: blur(0.4rem);
   backdrop-filter: blur(0.4rem);
   border-radius: 1rem;
-  width: max(65rem, 100%);
+  width: max(25rem, 100%);
 }
 
 .full-table td,
@@ -854,10 +854,6 @@ ul.big-list {
     left: -1.1rem;
   }
 
-  
-.full-table tr {
-  height: 20px;
-}
 
   section {
     padding-left: 1.5rem;
