@@ -854,6 +854,11 @@ ul.big-list {
     left: -1.1rem;
   }
 
+  
+.full-table tr {
+  height: 20px;
+}
+
   section {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
