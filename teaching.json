@@ -1,11 +1,24 @@
 [
     {
+        "name": "Calcolo Numerico",
+        "cfu": "6 CFU",
+        "year": "2025/26",
+        "course": "Informatica",
+        "links": [
+            { "label": "Programma del corso", "url": "https://docs.google.com/document/d/1919pg55EfVihZlSx1Jhq9ELk2mOBgJC-4Uyw6IQ0xZ8/edit?usp=sharing" },
+            { "label": "Lezioni", "url": "https://drive.google.com/file/d/1wk3HyWSKM-c18rHfMWG01pggQLVGRAzZ/view?usp=sharing" },
+            { "label": "Compiti", "url": "https://drive.google.com/drive/folders/1dRWEpT_OyOkzsFd9ZPeOw4vQ5SeSSfBG?usp=drive_link" }
+        ]
+    },
+    {
         "name": "Analisi Matematica 2",
         "cfu": "6 CFU",
         "year": "2024/25",
         "course": "Ingegneria delle Telecomunicazioni / Biomedica / Elettronica",
-        "programLink": "https://www.docenti.unina.it/webdocenti-be/allegati/avvisi/10295652",
-        "exercisesLink": "https://www.docenti.unina.it/teacher/50414f4c4f4143414d504f5241434d50504c4139384431314638333955/didactics/didactics-material",
-        "solvedExamsLink": "https://www.docenti.unina.it/teacher/50414f4c4f4143414d504f5241434d50504c4139384431314638333955/didactics/didactics-material"
+        "links": [
+            { "label": "Programma del corso", "url": "https://www.docenti.unina.it/webdocenti-be/allegati/avvisi/10295652" },
+            { "label": "Esercizi vari", "url": "https://www.docenti.unina.it/teacher/50414f4c4f4143414d504f5241434d50504c4139384431314638333955/didactics/didactics-material" },
+            { "label": "Tracce d'esame", "url": "https://www.docenti.unina.it/teacher/50414f4c4f4143414d504f5241434d50504c4139384431314638333955/didactics/didactics-material" }
+        ]
     }
 ]
