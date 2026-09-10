@@ -1,4 +1,9 @@
 $(function () {
+  // Sync switch appearance with the theme applied before first paint
+  if ($("html").hasClass("dark")) {
+    $("#lightSwitch").addClass("dark");
+  }
+
   // Detect scroll of the navbar and modify it
   $(document).scroll(function () {
     var $nav = $("#topBar");
@@ -21,8 +26,10 @@ $(function () {
       '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" /></svg>';
     $.each(data, function () {
       var tbl_row = tbl_body.insertRow();
-      var numberCell = tbl_row.insertCell();
+      var numberCell = document.createElement("th");
+      numberCell.setAttribute("scope", "row");
       numberCell.appendChild(document.createTextNode(n));
+      tbl_row.appendChild(numberCell);
       n = n - 1;
       var that = this;
       $.each(this, function (k, v) {
@@ -68,14 +75,17 @@ $(function () {
   // Construct teaching section
   $.getJSON("teaching.json", function(data){
     $.each(data, function(){
-      var {name, cfu, year, course, programLink, exercisesLink, solvedExamsLink} = this;
+      var {name, cfu, year, course, links} = this;
+      var linksHtml = links
+        .map(function (link) {
+          return `<a class="svg-text" href="${link.url}" target="_blank">${link.label}</a>`;
+        })
+        .join("");
       var courseMaterial = `
       <h2>${name} - ${cfu}</h2>
       <h4>A.A. ${year}, ${course}</h4>
       <div class="flex-link-container">
-      <a class="svg-text" href="${programLink}">Programma del corso</a>
-      <a class="svg-text" href="${exercisesLink}">Esercizi vari</a>
-      <a class="svg-text" href="${solvedExamsLink}">Tracce d'esame</a>
+      ${linksHtml}
       </div>
       `;
       $("#teaching-material").append(courseMaterial);
@@ -133,5 +143,6 @@ $(function () {
 
   function toggleDarkMode() {
     $("html").toggleClass("dark");
+    localStorage.setItem("theme", $("html").hasClass("dark") ? "dark" : "light");
   }
 });
